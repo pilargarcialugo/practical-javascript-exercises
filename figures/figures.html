@@ -7,7 +7,22 @@
     <title>Figures</title>
 </head>
 <body>
-    <h1>Geometric Figures</h1>
+    <header>
+        <h1>Geometric Figures</h1>
+        <h3>First practical exercise</h3>
+    </header>
+
+    <section>
+        <p>Calculate the area and perimeter of a square</p>
+        <form>
+            <label for="squareSize">
+                Square size:
+                <input id="squareSize" type="number">
+                <button type="button" onclick="calculateSquarePerimeter()">Perimeter</button>
+                <button type="button" onclick="calculateSquareArea()">Area</button>
+            </label>
+        </form>
+    </section>
 
     <script src="./figures.js"></script>
 </body>
